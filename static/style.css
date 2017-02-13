@@ -1,0 +1,12 @@
+/* style.css */
+
+*:before,
+*:after,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#chat input {
+  font-size: 2em;
+}

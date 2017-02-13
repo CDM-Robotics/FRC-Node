@@ -1,0 +1,17 @@
+//- index.pug
+
+include ./utils.pug
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    +style('/static/style.css')
+  body
+    #chat
+      form
+        input(type='text', placeholder='Enter Text Here')
+    +script('/static/bower_components/jquery/dist/jquery.min.js')
+    +script('socket.io/socket.io.js')
+    +script('/static/script.js')
